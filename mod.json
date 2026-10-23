@@ -1,0 +1,30 @@
+{
+	"geode": "4.6.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"version": "v1.0.0",
+	"id": "tuusuario.supramundo",
+	"name": "Supramundo",
+	"developer": "TuUsuario",
+	"description": "Un supramundo 2D explorable con biomas, torres demoníacas, tiendas, cofres y The King.",
+	"tags": ["gameplay", "interface", "universal"],
+	"settings": {
+		"velocidad": {
+			"type": "float",
+			"name": "Velocidad del jugador",
+			"description": "Velocidad de movimiento en el mapa.",
+			"default": 220,
+			"min": 100,
+			"max": 500
+		},
+		"mostrar-nombres": {
+			"type": "bool",
+			"name": "Mostrar nombres de niveles",
+			"default": true
+		}
+	}
+}
